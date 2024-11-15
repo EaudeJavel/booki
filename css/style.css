@@ -133,7 +133,7 @@ a {
 }
 
 .search-bar i {
-  color: black; /* Icon is black */
+  color: black;
 }
 
 .search-section .search-bar input {
@@ -143,7 +143,6 @@ a {
 }
 
 .search-section .search-bar i {
-  /* color: "red" !important; */
   background-color: grey;
 }
 
@@ -152,7 +151,7 @@ a {
   padding: 12px;
   border: none;
   font-size: 16px;
-  font-weight: 600; /* Add font weight */
+  font-weight: 600;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
@@ -164,19 +163,19 @@ a {
 .search-bar .btn-normal {
   background-color: #0065fc;
   color: white;
-  font-weight: 700; /* Make the text bold */
+  font-weight: 700;
   padding: 12px 16px;
   border: none;
   cursor: pointer;
-  border-radius: 0 30px 30px 0; /* Rounded on the right */
+  border-radius: 0 30px 30px 0;
 }
 
 .search-bar input:focus {
-  outline: none; /* Removes input outline on focus */
+  outline: none;
 }
 
 .search-bar button:hover {
-  background-color: #0053d1; /* Darken the blue slightly on hover */
+  background-color: #0053d1;
 }
 
 /****** filters ***********/
@@ -456,7 +455,6 @@ a {
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
   .hebergements-and-populaires {
     flex-direction: column;
@@ -490,10 +488,8 @@ a {
   }
 }
 
-/* Small devices (phones, less than 768px) */
 /****** Mobile devices (less than 768px) ***********/
 @media (max-width: 767.98px) {
-  /* General layout adjustments */
   .main-container {
     padding: 0;
   }
