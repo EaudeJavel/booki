@@ -700,6 +700,7 @@ a {
   /* Footer */
   .footer {
     padding: 20px;
+    text-align: center;
   }
 
   .footer .footer-column {
@@ -713,5 +714,16 @@ a {
 
   .footer .footer-column ul li a {
     font-size: 12px;
+  }
+
+  .footer .footer-links {
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+@media (max-width: 540px) {
+  .footer .footer-links {
+    flex-direction: column;
   }
 }
