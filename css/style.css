@@ -87,7 +87,7 @@ a {
   font-size: 18px;
 }
 
-.main-container .header .nav a.active {
+.main-container .header .nav a:hover {
   color: #0065fc;
   border-top: 2px solid #0065fc;
   padding-top: 10px;
