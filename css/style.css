@@ -302,6 +302,7 @@ a {
 .populaires-cards .card {
   display: flex;
   margin-top: 33px;
+  max-width: 280px;
 }
 
 .populaires-cards img {
